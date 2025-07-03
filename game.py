@@ -1,8 +1,12 @@
 import random
 
 def main():
+    print("What is your name?")
+    name = input()
+    print("Hello," + name + "!")
 
     print("Rolling dice...")
+    
     d1 = random.randint(1, 6)
     d2 = random.randint(1, 6)
     total = str(d1 + d2)
